@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="SurveyForm.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub|Montserrat|Poppins|Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title">Survery Form</h1>
+    <div id="form-outer">
+    <p id="description">Let me help you end your suffering.</p>
+    <form id="survey-form">
+        <div class="rowtab">
+            <div class="labels">
+                <label class="label-name" for="name">* Name: </label>
+            </div>
+            <div class="righttab">
+                <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name"
+                    required>
+            </div>
+        </div>
+        <div class="rowtab">
+            <div class="labels">
+                <label class="label-name" for="email">* E-mail</label>
+            </div>
+            <div class="righttab">
+                <input autofocus type="email" name="email" id="email" class="input-field" placeholder="Enter your Email"
+                    required>
+            </div>
+        </div>
+        <div class="rowtab">
+            <div class="labels">
+                <label class="label-name" for="age">* Age:</label>
+            </div>
+            <div class="righttab">
+                <input type="number" name="age" id="number" min="14"
+                    max="76" class="input-field" placeholder="Age">
+            </div>
+        </div>
+        <div class="rowtab">
+            <div class="labels">
+                <label for="curentstate">* Which emotional state describes you best right now:</label>
+            </div>
+            <div class="righttab">
+                <select name="curentstate" id="dropdown" class="dropdown">
+                    <option disabled value>Select an option</option>
+                    <option value>Diminished</option>
+                    <option value>Depressed</option>
+                    <option value>Sad</option>
+                    <option value>Numb</option>
+                    <option value>Content</option>
+                    <option value>Happy</option>
+                    <option value>Ecstatic</option>
+                </select>
+            </div>
+        </div>
+        <div class="rowtab">
+            <div class="labels">
+                <label class="label-name" for="userRatings">* How would you describe a good well constructed meme:</label>
+            </div>
+            <div class="righttab">
+                <ul style="list-style: none;">
+                    <li class="radio">
+                        <label>
+                            <input name="radio-buttons" value="1" type="radio" class="userRatings">
+                            Too Dank
+                        </label>
+                    </li>
+                    <li class="radio">
+                        <label>
+                            <input name="radio-buttons" value="2" type="radio" class="userRatings">
+                            Hilarious
+                        </label>
+                    </li>
+                    <li class="radio">
+                        <label>
+                            <input name="radio-buttons" value="3" type="radio" class="userRatings">
+                            Funny
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rowtab">
+            <div class="labels">
+                <label class="label-name" for="most-like">* What do you like most in life?:</label>
+            </div>
+            <div class="righttab">
+                <select name="curentstate" id="dropdown" class="dropdown">
+                    <option disabled value>Select an option</option>
+                    <option value>People</option>
+                    <option value>Memes</option>
+                    <option value>Music</option>
+                    <option value>Cute Shit</option>
+                </select>
+            </div>
+        </div>
+        <div class="rowtab">
+            <div class="labels">
+                <label class="label-name" for="necessities">* Things that should be added to your life to make you
+                    happier<br>(Check all that apply):</label>
+            </div>
+            <div class="righttab">
+                <ul id="necessities" style="list-style: none;">
+                    <li class="checkbox">
+                        <label>
+                            <input name="need" value="1" type="checkbox" class="necessities">
+                            Pet
+                        </label>
+                    </li>
+                    <li class="checkbox">
+                        <label>
+                            <input name="need" value="2" type="checkbox" class="necessities">
+                            Books
+                        </label>
+                    </li>
+                    <li class="checkbox">
+                        <label>
+                            <input name="need" value="3" type="checkbox" class="necessities">
+                            Lover
+                        </label>
+                    </li>
+                    <li class="checkbox">
+                        <label>
+                            <input name="need" value="4" type="checkbox" class="necessities">
+                            Games
+                        </label>
+                    </li>
+                    <li class="checkbox">
+                        <label>
+                            <input name="need" value="5" type="checkbox" class="necessities">
+                            Passion
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rowtab">
+            <div class="labels">
+                <label class="label-name" for="comment">* If you feel that this form wasn't enough to express your
+                    feelings:</label>
+            </div>
+            <div class="righttab">
+                <textarea id="comment" class="input-field" style="height:50px;resize:vertical;" name="comment"
+                    placeholder="Vent here..."></textarea>
+            </div>
+        </div>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+
+</html>
