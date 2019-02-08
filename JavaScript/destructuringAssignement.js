@@ -5,10 +5,10 @@ const LOCAL_FORECAST = {
   
   function getMaxOfTmrw(forecast) {
     "use strict";
-    // change code below this line
-    const { tomorrow: { max : maxOfTomorrow } } = forecast; // change this line
-    // change code above this line
+    
+    const { tomorrow: { max : maxOfTomorrow } } = forecast; 
+    
     return maxOfTomorrow;
   }
   
-  console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+  console.log(getMaxOfTmrw(LOCAL_FORECAST)); 
