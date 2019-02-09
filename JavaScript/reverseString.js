@@ -1,4 +1,4 @@
-function reverseString(str) {
+function checkPalindrome(str) {
     // Create an empty string that will host the new created string
     var input = "";
 
@@ -14,4 +14,3 @@ function reverseString(str) {
         return false;
     }
 }
-console.log(reverseString("string"));
