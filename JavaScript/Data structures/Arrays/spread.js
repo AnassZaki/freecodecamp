@@ -1,9 +1,9 @@
 // function able to copy arrays! Cool right ?
-function copyMachine(arr, num) {
+function copyMachine(array, num) {
     'use strict';
   let newArr = [];
   while (num >= 1) {
-    newArr.push([...arr]);
+    newArr.push([...array]);
     num--;
   }
   return newArr;
