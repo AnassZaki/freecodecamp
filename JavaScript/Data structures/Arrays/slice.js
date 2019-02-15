@@ -1,3 +1,4 @@
+// using slice method to modify arrays
 'use strict';
 let arr = ['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms'];
 let newArray = [];
