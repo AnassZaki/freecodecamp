@@ -6,5 +6,5 @@ function quickCheck(arr, elem) {
     return false;
 }
 
-// change code here to test different cases:
+// test different cases:
 console.log(quickCheck(['potatoes', 'bread', 'shallots'], 'bread'));
