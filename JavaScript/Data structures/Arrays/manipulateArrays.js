@@ -1,9 +1,9 @@
 function manipulate(arr) {
 
-    // add an element to the beginning of the array
+    // adds an element to the beginning of the array
     arr.unshift("potatoes");
 
-    // push an element to the end of the array
+    // pushes an element to the end of the array
     arr.push("bread");
 
     // remove an element from the beginning of the array
