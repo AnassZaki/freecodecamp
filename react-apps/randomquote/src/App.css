@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Dancing+Script|Poppins');
+
+#text {
+    font-family: 'Roboto Condensed';
+    font-size: 2em;
+}
+
+#author {
+    font-family:'Roboto Condensed';
+    font-style: italic;
+    font-size: 1.4em;
+}
+#new-quote {
+    font-family: monospace;
+    font-size: 1.2em;
+}
+
+#quote-box {
+    background-color: bisque;
+}
+
+#github {
+    justify-content: flex-end;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#credit {
+    font-family: 'Poppins';
+}
