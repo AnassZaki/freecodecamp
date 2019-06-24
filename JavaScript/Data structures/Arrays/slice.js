@@ -1,8 +1,11 @@
 // using slice method to modify arrays
 'use strict';
-let arr = ['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms'];
+let num = 1;
+let arr1 = [1, 2, 3]
+let arr2 = ['cold', 'rainy', 'warm'];
 let newArray = [];
+let str = '';
 
-newArray = arr.slice(0, arr.length);
+str = arr1.slice(0, arr1.length)
 
-console.log(newArray);
+console.log(str);
