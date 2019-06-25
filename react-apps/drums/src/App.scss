@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", Roboto;
+}
+
+.machine {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  background: #111;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px 3px #333;
+}
+
+.pads {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.outer-drum-pad {
+  width: 120px;
+  height: 120px;
+  background: #8b8b8b;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.drum-pad {
+  width: 97%;
+  height: 97%;
+  background: rgb(24, 24, 24);
+  border-radius: 20%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 120px;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  &:hover {
+    color: rgb(117, 69, 69);
+  }
+}
+
+.side-panel {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.display {
+  width: 220px;
+  height: 40px;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 30px;
+  background: #9fa8a8;
+  border: 2px solid #333;
+  border-radius: 10px;
+  color: rgb(255, 251, 251);
+}
+
+button {
+  background: rgb(50, 139, 50);
+  width: 40px;
+  height: 40px;
+  margin: 10px 0 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+input {
+  margin: 10px;
+}
