@@ -59,19 +59,21 @@ class App extends React.Component {
     }
 
     return (
-      <div className="container">
-        <div className="machine">
-          <div className="pads">{pads}</div>
-          <SidePanel
-            volumeInput={this.state.volumeInput}
-            togglePower={this.togglePower}
-            changeVolume={this.changeVolume}
-            currentSound={this.state.currentSound}
-            power={this.state.power}
-            colorStyle={colorStyle}
-          />
+      <body>
+        <div className="container">
+          <div className="machine">
+            <div className="pads">{pads}</div>
+            <SidePanel
+              volumeInput={this.state.volumeInput}
+              togglePower={this.togglePower}
+              changeVolume={this.changeVolume}
+              currentSound={this.state.currentSound}
+              power={this.state.power}
+              colorStyle={colorStyle}
+            />
+          </div>
         </div>
-      </div>
+      </body>
     );
   }
 }
