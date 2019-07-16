@@ -1,18 +1,21 @@
-import React from 'react';
-import './App.css';
-import Calculator from './Components/Calculator';
+import React from "react";
+import Calculator from "./Components/Calculator";
 
-function App() {
+// app.js
+// App component
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div className="container">
-          <Calculator />
-        </div>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  componentDidMount = () => {
+    document.title = "Calculator";
+  };
+
+  render() {
+    return (
+      <div className="app-wrap">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
