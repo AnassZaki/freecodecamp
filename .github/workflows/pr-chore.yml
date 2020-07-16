@@ -1,4 +1,4 @@
-name: Assign Author & Size Label
+name: PR Chore
 
 on: [pull_request]
 
