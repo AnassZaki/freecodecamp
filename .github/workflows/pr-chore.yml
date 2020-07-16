@@ -1,0 +1,21 @@
+name: PR Chore
+
+on: [pull_request]
+
+jobs:
+  auto-assign:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Assign Author
+        uses: technote-space/assign-author@v1
+
+  label-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Size Label
+        uses: pascalgn/size-label-action@ee2c1d869559066f4c5242f20c658e402e937e73
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IGNORED: '*.json\nyarn.lock'
